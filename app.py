@@ -11,3 +11,8 @@ def index():
 @app.route('/necklaces')
 def necklaces():
     return  render_template('necklaces.html')
+
+
+@app.route('/rubyamethyst')
+def rubyamethyst():
+    return  render_template('rubyamethyst.html')
