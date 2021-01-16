@@ -13,6 +13,6 @@ def necklaces():
     return  render_template('necklaces.html')
 
 
-@app.route('/rubyamethyst')
+@app.route('/luch')
 def rubyamethyst():
-    return  render_template('rubyamethyst.html')
+    return  render_template('lucy.html')
