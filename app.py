@@ -13,6 +13,12 @@ def necklaces():
     return  render_template('necklaces.html')
 
 
-@app.route('/day')
+@app.route('/lark')
 def day():
-    return  render_template('day.html')
+    return  render_template('lark.html')
+
+
+@app.route('/bp')
+def bp():
+    return  render_template('bp.html')
+
